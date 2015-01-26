@@ -1,0 +1,43 @@
+* {font-family: 'Lato', sans-serif;}
+
+.outer-shell {
+	position: absolute;
+	background: black;
+	border-radius: 50px;
+	width: 500px;
+	height: 250px;
+	margin: 100px;
+}
+
+.inner-shell {
+	border-radius: 30px;
+	margin: 20px;
+	padding: 10px;
+	background: #2d2d2d;;
+	height: 150px;
+}
+
+.pm-side {
+	position: absolute;
+	text-align: right;
+	line-height: 4em;
+	padding-left: 30px;
+	margin-top: -10px;
+}
+
+.clock-face {
+	text-align: center;
+	font-size: 6em;
+	color: #ff0000;
+	background: #7f0000;
+	border-radius: 10px;
+	width: 250px;
+	margin: 0px 10px 5px 80px;
+	padding: 0px 50px 0px 10px
+}
+
+.tuner-label {
+	color: white;
+	margin-left: 90px;
+
+}
