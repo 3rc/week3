@@ -103,9 +103,12 @@ $(document).on('ready', function() {
 
 	*/
 
-	var unique = function() {
-		
+	var unique = function(strings) {
+		return _.uniq(strings);
 	}
+
+	console.log(unique(['a', 'b', 'a', 'c', 'd', 'd']))
+		
 
 
 

@@ -1,0 +1,30 @@
+.calendarWeek {
+	width: 80%;
+	margin: auto;
+	border: 2px solid gray;
+	text-align: center;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.calendarWeek label {
+	font-size: 2em;
+	margin: 10px 0px 10px 0px;
+}
+
+.calendarDay {
+	border: 1px solid black;
+	width: 100%;
+	height: 14%;
+	padding: 10px 0 10px 0;
+	margin: 10px 0px 10px 0;
+}
+
+.calendarDay p {
+	text-align: left;
+	padding: 10px 0px 10px 20px;
+}
+
+textarea {
+	width: 80%;
+}
